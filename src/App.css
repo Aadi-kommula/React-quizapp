@@ -16,6 +16,7 @@
   background-color: #2C5364;
   border-radius: 12px;
   padding:20px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 h1{
@@ -31,11 +32,12 @@ h1:hover{
 li{
   list-style: none;
   background-color: rgb(174, 182, 188);
-  max-width:200px;
+  max-width:210px;
   padding: 10px;
   border-radius: 6px;
   color: #224a5b;
   font-weight: 650;
+  list-style-type:upper-alpha;
  }
 
 li:hover{

@@ -14,7 +14,6 @@ function App() {
     "What is the virtual DOM in React?",
     "What is the purpose of the useEffect hook in React?"
 ];
-
 const options = [
     {
         optionvalue: ["A library for building UI", "A database", "A server-side framework", "A CSS framework"]
@@ -100,7 +99,7 @@ const actualans = [
                     <h2>{question[counter]}</h2>
                     <div id="option">
                         {options[counter].optionvalue.map((x, index) => (
-                            <li key={index} id={index} onClick={() => Change(index)}>
+                            <li  key={index} id={index} onClick={() => Change(index)}>
                                 {x}
                             </li>
                         ))}
