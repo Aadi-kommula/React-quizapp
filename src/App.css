@@ -31,7 +31,7 @@ h1:hover{
 li{
   list-style: none;
   background-color: rgb(174, 182, 188);
-  width:150px;
+  max-width:200px;
   padding: 10px;
   border-radius: 6px;
   color: #224a5b;
@@ -84,5 +84,9 @@ li:hover{
   }
   h1{ 
         top:30px;
+  }
+  #score{
+    position: absolute;
+    top:200px;
   }
 }
