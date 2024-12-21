@@ -14,7 +14,7 @@ function App() {
             optionvalue: ["New Delhi", "Hyderabad", "Banglore", "Chennai"]
         },
         {
-            optionvalue: ["Revanth Reddy", "Narendra Modi", "Amit Shah", "Rahul Gandhi"]
+            optionvalue: ["Yogi Adityanadh", "Narendra Modi", "Amit Shah", "Rahul Gandhi"]
         },
         {
             optionvalue: ["Sonia Gandhi", "Narendra Modi", "Pawan kalyan", "Draupadi Murmu"]

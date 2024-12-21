@@ -11,7 +11,7 @@
 }
 
 .card{
-  max-width:600px;
+  width:600px;
   height:fit-content;
   background-color: #2C5364;
   border-radius: 12px;
@@ -76,11 +76,13 @@ li:hover{
 @media only screen and (max-width:500px){
   .card{
     max-height: fit-content;
-    max-width: fit-content;
+    width: 340px;
     padding: 20px;
     position: absolute;
     top:22%;
     
   }
   h1{ 
-     
+        top:30px;
+  }
+}
